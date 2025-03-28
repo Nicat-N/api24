@@ -4,7 +4,7 @@ from .models import news_list
 
 def get_news():
 
-    data = [{""tit": news.tit, "des":news.des, "img": news.img"} for news in news_list]
+    data = [{"tit": news.tit, "des":news.des, "img": news.img} for news in news_list]
 
     api_key = request.args.get("api_key")
 

@@ -7,14 +7,14 @@ class News:
 
     
 news1 = News(
-    "Where Is the AGI"
-    "While AI large language models excel at answering questions, they struggle with logical reasoning and consistent rule application."
+    "Where Is the AGI",
+    "While AI large language models excel at answering questions, they struggle with logical reasoning and consistent rule application.",
     "https://picsum.photos/400?random=1"
 )
 
 news2 = News(
-    "Tibet and the Earthquake China"
-    "An earthquake struck Tibet in early January, but strict government controls prevented international media from reporting on the disaster firsthand."
+    "Tibet and the Earthquake China",
+    "An earthquake struck Tibet in early January, but strict government controls prevented international media from reporting on the disaster firsthand.",
     "https://picsum.photos/400?random=2"
 )
 
@@ -148,5 +148,6 @@ news24 = News(
     "Ocean Plastics Crisis Worsens",
     "Studies show ocean plastic pollution is increasing at an alarming rate, threatening marine life.",
     "https://picsum.photos/400?random=24"
+)
 
 news_list = [news1, news2, news3, news4, news5, news6, news7, news8, news9, news10, news11, news12, news13, news14, news15, news16, news17, news18, news19, news20,news21, news22, news23, news24]
